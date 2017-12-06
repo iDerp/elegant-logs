@@ -1,0 +1,17 @@
+{
+  "name": "elegant-logs",
+  "version": "1.3.6",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "elegant-ver": "node -v elegant-logs",
+    "elegant-test": "node test",
+    "elegant-update": "npm update elegant-logs",
+    "elegant-major-update": "npm uninstall elegant-logs --save-dev && npm install elegant-logs --save-dev"
+  },
+  "keywords": [
+    "logs"
+  ],
+  "author": "dev1nee",
+  "license": "ISC"
+}
