@@ -61,8 +61,18 @@ module.exports = {
     } catch (err) {
       console.log('\x1b[33mElegant \x1b[0m|| Error creating your log');
     }
+  },
+  basic: async(logmsg, color, color2) => {
+    try {
+      const colors = await getColors(color, color2);
+
+      console.log(`\x1b[${colors[0]}mLOG     \x1b[0m|| \x1b[${colors[1]}m${logmsg}\x1b[0m`);
+    } catch (err) {
+      console.log('\x1b[33mElegant \x1b[0m|| Error creating your log');
+    }
   }
 };
+
 
 async function getColors(color, color2) {
   return new Promise((resolve) => {
