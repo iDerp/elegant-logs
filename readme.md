@@ -5,7 +5,7 @@ Helps to create beautiful looking logs.
 ![ex](https://are-you-sure-that.dev1nee.codes/images/69428.png)
 
 # Setup
-if you have npm installed run 'npm install --save elegant-logs'
+if you have npm installed run 'npm install elegant-logs --save'
 ```
 var logs = require('elegant-logs');
 
@@ -25,7 +25,7 @@ logs.critical('test', 'bgpurple', 'yellow');
 
 ```
 
-#types
+# types
 elegant-logs comes with many default types of logs.
 
 these include,
@@ -46,7 +46,7 @@ these include,
 
 ```~see below for colors~```
 
-#log
+# log
 log - lets you take control of every element of your log.
 
 ``` logs.log('test', 'logname', 'lognamecolor', 'textcolor'); ```
@@ -119,50 +119,50 @@ bgcyan
 ### 1.3.4
 ```Techno Cleaned / shortened code```
 
-###1.2.9
+### 1.2.9
 Underscore no longer supported.
 
 
-###1.2.8
+### 1.2.8
 ```MAJOR:```
 
 Fixed custom log having incorrect effects.
 
-###1.2.8
+### 1.2.8
 fixed status being out of place
 
-###1.2.7
+### 1.2.7
 minor status color mixup
 
-###1.2.6
+### 1.2.6
 Fixed ```big``` log color bug,
 
 minor/major bugs,
 
 small updates from here on out
 
-###1.2.5
+### 1.2.5
 No longer breaks terminal if effects are used incorrectly,
 
 minor bugs
 
-###1.2.4
+### 1.2.4
 ```should``` fix errors with effects
 
-###1.2.3
+### 1.2.3
 Effect functionality,
 
 minor bug fixes
 
-###1.2.2
+### 1.2.2
 ```should``` error of not logging if no color2 is chosen,
 
 minor bug fixes
 
-###1.2.1
+### 1.2.1
 Complete overhaul of logging system,
 
 multi-color functionality
 
-#Plog
+# Plog
 ``` Gone as of build 1.1.0...```
